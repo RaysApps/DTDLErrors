@@ -1,0 +1,26 @@
+{
+  "@context": "dtmi:dtdl:context;3",
+  "@id": "dtmi:com:raysapps:parsingerrorapp:onlyerros;1",
+  "@type": "Interface",
+  "displayName": "onlyerros",
+  "contents": [
+    {
+      "@type": "Telemetry",
+      "name": "temperature",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "deviceStatus",
+      "schema": "string"
+    },
+    {
+      "@type": "Command",
+      "name": "reboot",
+      "request": {
+        "name": "delay",
+        "schema": "integer"
+      }
+    }
+  ]
+}

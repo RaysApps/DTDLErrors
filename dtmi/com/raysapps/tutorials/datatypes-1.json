@@ -1,0 +1,60 @@
+{
+  "@context": "dtmi:dtdl:context;3",
+  "@id": "dtmi:com:raysapps:tutorials:datatypes;1",
+  "@type": "Interface",
+  "displayName": "datatypes",
+  "contents": [
+  
+    {
+      "@type": "Property",
+      "name": "Double",
+      "schema": "double"
+    },
+     {
+      "@type": "Property",
+      "name": "Boolean",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "Date",
+      "schema": "date"
+    },
+    {
+      "@type": "Property",
+      "name": "DateTime",
+      "schema": "dateTime"
+    },
+    {
+      "@type": "Property",
+      "name": "Duration",
+      "schema": "duration",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "name": "Float",
+      "schema": "float",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "name": "Integer",
+      "schema": "integer",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "name": "Long",
+      "schema": "long",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "name": "String",
+      "schema": "string",
+      "writable": true
+    }
+
+  ]
+}

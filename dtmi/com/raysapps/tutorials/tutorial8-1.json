@@ -1,0 +1,13 @@
+{
+  "@context": "dtmi:dtdl:context;3",
+  "@id": "dtmi:com:raysapps:tutorials:tutorial8;1",
+  "@type": "Interface",
+  "displayName": "tutorial8",
+  "contents": [
+    {
+      "@type": "Telemetry",
+      "name": "currentLocation",
+      "schema": "point"
+    }
+  ]
+}

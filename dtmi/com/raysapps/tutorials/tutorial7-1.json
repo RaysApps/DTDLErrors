@@ -1,0 +1,32 @@
+{
+  "@context": "dtmi:dtdl:context;3",
+  "@id": "dtmi:com:raysapps:tutorials:tutorial7;1",
+  "@type": "Interface",
+  "displayName": "tutorial7",
+  "schemas": [
+    {
+    "@id": "dtmi:com:raysapps:tutorials:allotment;1",
+      "@type": "Map",
+      "mapKey": {
+        "name": "item",
+        "schema": "string"
+      },
+      "mapValue": {
+        "name": "count",
+        "schema": "integer"
+      }
+    }
+  ],
+  "contents": [
+    {
+      "@type": "Telemetry",
+      "name": "runningAllotment",
+      "schema": "dtmi:com:raysapps:tutorials:allotment;1"
+    },
+    {
+      "@type": "Property",
+      "name": "expectedAllotment",
+      "schema": "dtmi:com:raysapps:tutorials:allotment;1"
+    }
+  ]
+}

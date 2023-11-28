@@ -1,0 +1,40 @@
+{
+  "@context": "dtmi:dtdl:context;3",
+  "@id": "dtmi:com:raysapps:parsingerrorapp:referenceschema;1",
+  "@type": "Interface",
+  "displayName": "referenceschema",
+  "schemas": [
+    {
+      "@id": "dtmi:example:allotment;1",
+      "@type": "Map",
+      "mapKey": {
+        "name": "item",
+        "schema": "string"
+      },
+      "mapValue": {
+        "name": "count",
+        "schema": "integer"
+      }
+    }
+  ],
+  "contents": [
+    {
+      "@type": "Telemetry",
+      "name": "temperature",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "deviceStatus",
+      "schema": "string"
+    },
+    {
+      "@type": "Command",
+      "name": "reboot",
+      "request": {
+        "name": "delay",
+        "schema": "integer"
+      }
+    }
+  ]
+}

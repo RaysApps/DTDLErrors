@@ -1,0 +1,14 @@
+{
+  "@context": "dtmi:dtdl:context;3",
+  "@id": "dtmi:com:raysapps:parsingerrorapp:noErrors;1",
+  "@type": "Interface",
+  "displayName": "noErrors",
+  "contents": [
+    {
+      "@type": "Telemetry",
+      "name": "temperature",
+      "schema": "point"
+    }
+    
+  ]
+}

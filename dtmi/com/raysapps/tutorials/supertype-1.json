@@ -1,0 +1,13 @@
+{
+  "@context": "dtmi:dtdl:context;3",
+  "@id": "dtmi:com:raysapps:tutorials:supertype;1",
+  "@type": "Interface",
+  "displayName": "supertype",
+  "contents": [
+    {
+      "@type": "Telemetry",
+      "name": "currentDistance",
+      "schema": "double"
+    }
+  ]
+}

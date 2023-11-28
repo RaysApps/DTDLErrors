@@ -1,0 +1,26 @@
+{
+  "@context": "dtmi:dtdl:context;3",
+  "@id": "dtmi:com:raysapps:parsingerrorapp:schematest;1",
+  "@type": "Interface",
+  "displayName": "schematest",
+  "contents": [
+    {
+      "@type": "Telemetry",
+      "name": "temperature",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "deviceStatus",
+      "schema": "string"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "lengthPerSegment",
+      "schema": {
+        "@type": "Array",
+        "elementSchema": "double"
+      }
+    }
+  ]
+}

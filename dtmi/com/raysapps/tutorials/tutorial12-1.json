@@ -1,0 +1,15 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:raysapps:tutorials:tutorial12;1",
+  "@type": "Interface",
+  "displayName": "tutorial12",
+  "contents": [
+    {
+      "@type": ["Telemetry","Acceleration"],
+      "name": "currentDistance",
+      "schema": "double",
+      "unit": "centimetrePerSecondSquared",
+      "comment": "Temperature in Celsius"
+    }
+  ]
+}

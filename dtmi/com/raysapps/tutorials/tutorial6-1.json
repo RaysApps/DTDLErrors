@@ -1,0 +1,23 @@
+{
+  "@context": "dtmi:dtdl:context;3",
+  "@id": "dtmi:com:raysapps:tutorials:tutorial6;1",
+  "@type": "Interface",
+  "displayName": "tutorial6",
+  "contents": [
+   
+    {
+      "@type": "Property",
+      "name": "totalLength",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "lengthPerSegment",
+      "schema": 
+      {
+        "@type": "Array", 
+        "elementSchema":  "double"
+      }
+    }
+  ]
+}

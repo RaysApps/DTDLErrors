@@ -1,0 +1,14 @@
+{
+  "@context": "dtmi:dtdl:context;3",
+  "@id": "dtmi:com:raysapps:tutorials:tutorial9;1",
+  "@type": "Interface",
+  "extends":"dtmi:com:raysapps:tutorials:supertype;1",
+  "displayName": "tutorial9",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "expectedDistance",
+      "schema": "double"
+    }
+  ]
+}

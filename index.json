@@ -1,0 +1,44 @@
+{
+  "links": {
+    "self": "index.json"
+  },
+  "models": {
+    "dtmi:com:raysapps:parsingerrorapp:noErrors;1": {
+      "displayName": "noErrors"
+    },
+    "dtmi:com:raysapps:parsingerrorapp:onlyerros;1": {
+      "displayName": "onlyerros"
+    },
+    "dtmi:com:raysapps:parsingerrorapp:referenceschema;1": {
+      "displayName": "referenceschema"
+    },
+    "dtmi:com:raysapps:parsingerrorapp:schematest;1": {
+      "displayName": "schematest"
+    },
+    "dtmi:com:raysapps:tutorials:datatypes;1": {
+      "displayName": "datatypes"
+    },
+    "dtmi:com:raysapps:tutorials:supertype;1": {
+      "displayName": "supertype"
+    },
+    "dtmi:com:raysapps:tutorials:tutorial12;1": {
+      "displayName": "tutorial12"
+    },
+    "dtmi:com:raysapps:tutorials:tutorial13;1": {
+      "displayName": "tutorial12"
+    },
+    "dtmi:com:raysapps:tutorials:tutorial6;1": {
+      "displayName": "tutorial6"
+    },
+    "dtmi:com:raysapps:tutorials:tutorial7;1": {
+      "displayName": "tutorial7"
+    },
+    "dtmi:com:raysapps:tutorials:tutorial8;1": {
+      "displayName": "tutorial8"
+    },
+    "dtmi:com:raysapps:tutorials:tutorial9;1": {
+      "displayName": "tutorial9"
+    }
+  },
+  "version": "1.0"
+}
